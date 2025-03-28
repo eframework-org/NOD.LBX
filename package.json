@@ -1,0 +1,64 @@
+{
+  "name": "org.eframework.nod.lbx",
+  "displayName": "EFramework Luban for Node",
+  "description": "EFramework Luban for Node 简化了 Luban 导表工具的安装和使用。",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "EFramework Organization",
+    "email": "eframework-org@outlook.com",
+    "url": "https://github.com/eframework-org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eframework-org/NOD.LBX.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eframework-org/NOD.LBX/issues"
+  },
+  "keywords": [
+    "eframework",
+    "tool",
+    "node",
+    "luban",
+    "dotnet",
+    "unity",
+    "unreal",
+    "cocos",
+    "go"
+  ],
+  "bin": {
+    "lubanx": "./dist/index.js"
+  },
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "org.eframework.uni.util": "0.0.1",
+    "follow-redirects": "1.15.9"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "8.4.0",
+    "@types/follow-redirects": "1.14.4",
+    "@types/jest": "27.5.2",
+    "@types/node": "16.11.7",
+    "jest": "27.2.0",
+    "rollup": "2.79.1",
+    "rollup-plugin-clear": "2.0.7",
+    "rollup-plugin-sourcemaps": "0.6.3",
+    "rollup-plugin-terser": "7.0.2",
+    "rollup-plugin-typescript2": "0.36.0",
+    "ts-jest": "27.0.0",
+    "typescript": "4.1.6"
+  },
+  "scripts": {
+    "test": "jest --coverage --runInBand",
+    "debug": "rm -rf dist && rm -rf tests/dist && rollup -c",
+    "release": "rm -rf dist && rm -rf tests/dist && rollup -c --mode=production",
+    "prepublishOnly": "npm install && npm run release"
+  }
+}
