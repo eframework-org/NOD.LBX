@@ -29,11 +29,11 @@ lubanx [options]
 
 ## 常见问题
 
-如有问题，请提交 [问题反馈](CONTRIBUTING.md#问题反馈)。
-
 ### 1. npm 脚本执行 lubanx --version/help 时报错？
 1. 原因：Luban/Programs.cs->CommandOptions 中未定义 --version/help，导致 ParseArgs 返回了 NotParsed，调用了 Environment.Exit(1)。
 2. 议题：https://github.com/focus-creative-games/luban/issues/190。
+
+更多问题，请查阅[问题反馈](CONTRIBUTING.md#问题反馈)。
 
 ## 项目信息
 
