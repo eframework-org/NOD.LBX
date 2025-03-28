@@ -10,7 +10,7 @@ EFramework Luban for Node 简化了 Luban 导表工具的安装和使用。
 - 🚀 快捷安装 Luban 工具链
 - 🌐 优化中国区镜像访问限制
 
-## 操作手册
+## 使用手册
 
 ### 1. 前置条件
 - [.NET SDK 8.0+](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0)
