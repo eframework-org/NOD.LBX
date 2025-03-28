@@ -58,6 +58,7 @@
   "scripts": {
     "debug": "rm -rf dist && rm -rf tests/dist && rollup -c",
     "release": "rm -rf dist && rm -rf tests/dist && rollup -c --mode=production",
-    "test": "jest --coverage --runInBand"
+    "test": "jest --coverage --runInBand",
+    "prepublishOnly": "npm install && npm run release"
   }
 }

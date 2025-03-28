@@ -53,7 +53,7 @@ jobs:
         id: test_result
         shell: bash
         run: |
-          echo "� 开始测试..."
+          echo "🔍 开始测试..."
 
           # 创建测试报告目录
           mkdir -p tests/reports
