@@ -1,7 +1,8 @@
 # EFramework Luban for Node
 
 [![Version](https://img.shields.io/npm/v/org.eframework.nod.lbx)](https://www.npmjs.com/package/org.eframework.nod.lbx)
-[![Downloads](https://img.shields.io/npm/dm/org.eframework.nod.lbx)](https://www.npmjs.com/package/org.eframework.nod.lbx)  
+[![Downloads](https://img.shields.io/npm/dm/org.eframework.nod.lbx)](https://www.npmjs.com/package/org.eframework.nod.lbx)
+[![DeepWiki](https://img.shields.io/badge/DeepWiki-Explore-blue)](https://deepwiki.com/eframework-org/NOD.LBX)
 
 EFramework Luban for Node 简化了 Luban 导表工具的安装和使用。
 
